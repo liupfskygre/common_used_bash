@@ -95,3 +95,4 @@ done
 #The final number of reads input into assembler (reads remaining after error correction): 506396518 (69.9% of raw)?
 #m50 (a length cutoff), m50/m90 (length where 50% or 90% of reads align to contigs of this length or larger is: 343/NA
 #which means, if you want to have more 50% reads bing mapped, you need to include this length of contigs
+
