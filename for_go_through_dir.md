@@ -86,9 +86,10 @@ do
 cd ${D}
 cd QC\ and\ Genome\ Assembly
 grep -e 'JGI assembly of:' *README.txt >> ~/A_Wrighton_lab/Wetland_project/Assembler_test/Frogenwetlasoils_JGI/QC_Genome\ Assembly_readme/Alignment_of_reads_to_final_assembly.txt
-grep -e 'Alignment\ of\ reads\ to\ final\ assembly: *README.txt -A4 >> ~/A_Wrighton_lab/Wetland_project/Assembler_test/Frogenwetlasoils_JGI/QC_Genome\ Assembly_readme/Alignment_of_reads_to_final_assembly.txt
+grep -e 'Alignment of reads to final assembly:' *README.txt -A4 >> ~/A_Wrighton_lab/Wetland_project/Assembler_test/Frogenwetlasoils_JGI/QC_Genome\ Assembly_readme/Alignment_of_reads_to_final_assembly.txt
 cd ~/A_Wrighton_lab/Wetland_project/Assembler_test/Frogenwetlasoils_JGI/QC_Genome\ Assembly_readme/
 done
+
 ```
 
 #The final number of reads input into assembler (reads remaining after error correction): 506396518 (69.9% of raw)?
